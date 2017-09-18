@@ -1,19 +1,16 @@
 '.source.gisdk':
   'Macro':
     'prefix': 'Macro'
-    'body': 'Macro "${2:/* macroname */}"\n\t${4:/* code */}\nend'
+    'body': 'Macro "${1:/* macroname */}"\n\t${2:/* code */}\nend'
+  'RunMacro':
+    'prefix': 'RunMacro'
+    'body': 'RunMacro (${1:/* macroname */},${2:/* arguments */})'
   'For Loop':
     'prefix': 'for'
-    'body': 'for i = 1 to 10 step 1 do\n\t${4:/* code */}\nend'
+    'body': 'for i = 1 to 10 step 1 do\n\t${1:/* code */}\nend'
   'If Condition':
     'prefix': 'if'
-    'body': 'if (${1:/* condition */}) {\n\t${2:/* code */}\n}'
+    'body': 'if ${1:/* condition */} then do\n\t${2:/* code */}\nend'
   'If Else':
     'prefix': 'ife'
-    'body': 'if (${1:/* condition */}) {\n\t${2:/* code */}\n} else {\n\t${3:/* code */}\n}'
-  'If ElseIf':
-    'prefix': 'iff'
-    'body': 'if (${1:/* condition */}) {\n\t${2:/* code */}\n} else if (${3:/* condition */}) {\n\t${4:/* code */}\n}'
-  'If ElseIf Else':
-    'prefix': 'iffe'
-    'body': 'if (${1:/* condition */}) {\n\t${2:/* code */}\n} else if (${3:/* condition */}) {\n\t${4:/* code */}\n} else {\n\t${5:/* code */}\n}'
+    'body': 'if ${1:/* condition */} then do\n\t${2:/* code */}\nend\nelse do\n\t${3:/* code */}\nend'

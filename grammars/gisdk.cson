@@ -32,7 +32,7 @@
     'include': '#numbers'
   }
   {
-    'match': 'RunMacro'
+    'match': 'RunMacro|Macro'
     'name': 'constant.language.gisdk'
   }
   {

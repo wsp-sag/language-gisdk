@@ -1,0 +1,16 @@
+'.source.gisdk':
+  'Macro':
+    'prefix': 'Macro'
+    'body': 'Macro "${1:/* macroname */}"\n\t${2:/* code */}\nEndMacro'
+  'RunMacro':
+    'prefix': 'RunMacro'
+    'body': 'RunMacro (${1:/* macroname */},${2:/* arguments */})'
+  'For Loop':
+    'prefix': 'for'
+    'body': 'for i = 1 to 10 step 1 do\n\t${1:/* code */}\nend'
+  'If Condition':
+    'prefix': 'if'
+    'body': 'if ${1:/* condition */} then do\n\t${2:/* code */}\nend'
+  'If Else':
+    'prefix': 'ife'
+    'body': 'if ${1:/* condition */} then do\n\t${2:/* code */}\nend else do\n\t${3:/* code */}\nend'

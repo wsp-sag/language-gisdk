@@ -2,6 +2,7 @@ The MIT License (MIT)
 
 Copyright &copy; 2014-2015 [Lee Dohm](http://www.lee-dohm.com), [Lifted Studios](http://www.liftedstudios.com)
 Copyright &copy; 2014-2016 [Greg Macfarlane](http://gregmacfarlane.github.io/)
+Copyright &copy; 2017-2018 [Shams Tanvir](http://stanvir.github.io/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

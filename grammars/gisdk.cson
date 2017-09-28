@@ -9,7 +9,7 @@
     'include': '#comments'
   }
   {
-    'match': '\\b(break|case|continue|default|do|else|end|for|goto|if|then|_Pragma|return|switch|while)\\b'
+    'match': '\\b(break|case|continue|default|do|else|end|for|goto|if|then|_Pragma|return|switch|while|EndMacro|EndDbox)\\b'
     'name': 'keyword.control.gisdk'
   }
   {

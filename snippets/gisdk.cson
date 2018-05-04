@@ -1,10 +1,10 @@
 '.source.gisdk':
   'Macro':
     'prefix': 'Macro'
-    'body': 'Macro "${1:/* macroname */}"\n\t${2:/* code */}\nEndMacro'
+    'body': '/*\n\n*/\n\nMacro "${1:/* macroname */}"\n\t${2:/* code */}\nEndMacro'
   'RunMacro':
     'prefix': 'RunMacro'
-    'body': 'RunMacro (${1:/* macroname */},${2:/* arguments */})'
+    'body': 'RunMacro(${1:/* macroname */},${2:/* arguments */})'
   'For Loop':
     'prefix': 'for'
     'body': 'for i = 1 to 10 step 1 do\n\t${1:/* code */}\nend'

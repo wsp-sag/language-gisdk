@@ -2,6 +2,7 @@
 'fileTypes': [
   'rsc'
   'gisdk'
+  'model'
 ]
 'name': 'GISDK'
 'patterns': [
